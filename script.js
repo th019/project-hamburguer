@@ -4,6 +4,8 @@ const discont = document.querySelector(".discont-button")
 const sum = document.querySelector(".sum-button")
 const filtering = document.querySelector(".filter-button")
 
+
+
 function newValue(value) {
     return new Intl.NumberFormat('pt-br', {
          style: 'currency',
